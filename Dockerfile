@@ -36,7 +36,7 @@ RUN mkdir -p /file_buf
 RUN mkdir -p /script
 RUN cd /script
 
-RUN git clone https://github.com/fanhantianxia/wb_pipeline_fmriprepro.git 
+RUN git clone https://github.com/fanhan-Cloudhub/wb_pipeline_fmriprepro.git 
 ADD brain_mask.nii /file_buf/brain_mask.nii
 ADD wb_pipeline_calcFCD.sh /root/wb_pipeline_calcFCD.sh
 ADD wb_pipeline_calcFOCA.sh /root/wb_pipeline_calcFOCA.sh
